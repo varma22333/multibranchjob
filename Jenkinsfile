@@ -1,22 +1,12 @@
+
+
 node ("master") {
+  
 stage("checkout")
 {
-  
-}
-
-stage("Build")
-{
+   echo "123"
+    sh 'multibranch_job_1'
    
 }
-stage("QA")
-{
-    
+
 }
-stage("articraft")
-{
-    
-}
-stage("deployment")
-{
-    
-}}
