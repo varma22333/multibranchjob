@@ -5,7 +5,7 @@ node ("master") {
 stage("checkout")
 {
    echo "123"
-    sh 'multibranch_job_1'
+    Build 'multibranch_job_1/master'
    
 }
 
